@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --primary-color: #10b981;
+    --secondary-color: #4f46e5;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Container */
+.container{
+    padding: 1rem;
+}
+.centre-container{
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Links */
+.button {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.secondary-button{
+    background-color: white;
+    color: black;
+    border: 2px solid var(--primary-color);
+    border-radius: 6px;
+
+}
+
+ /* Customizing the lists */
+
+ .ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+
+ }
+ 
+.inline-list{
+    display: inline;
+    margin: 4px;
+}
+
+/* Navigation */
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom-left-radius: 1rem ;
+    padding: 1rem;
+}
+.navigation .link{
+    color: white;
+}
+.link{
+    display: inline;
+}
+.navList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation .navLinks{
+    text-align: right;
+}
+.navigation .navBrand{
+    font-weight: bold;
+}
+.navigation .link {
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    color: darkgray;
+}
+.hero .keyword{
+    color: var(--primary-color);
+}
+.hero-image{
+    text-align: center;
+}
+
+/* The off-white container */
+.offwhite {
+    background-color: #F3F4F6;
+    margin-bottom: 20px;
+    padding: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-radius: 2rem;
+}
+.name{
+    color: var(--secondary-color);
+}
+
+/* Footer */
+.footer{
+    border-top-right-radius: 2rem;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.footer a{
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.footer li{
+    display: inline-block;
+}
+.footer a{
+    text-decoration: none;
+}
+
+/* Final Code */
+.offwhite .button{
+    text-align: center;
+}
+
+.container h2 small a{
+    text-align: center;
+}
+
+.centre-container small {
+    padding: 3px;
+    color: gray;
+}
+.CTA {
+    padding: 10px;
+    margin: 10px;
+    text-align: center  ;
+}
