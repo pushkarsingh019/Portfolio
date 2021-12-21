@@ -166,3 +166,9 @@ body {
 .blog-cta {
     border-radius: 10px;
 }
+
+/* Hero Image - making it responsive */
+.hero-image-margin {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
