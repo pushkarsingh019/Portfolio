@@ -60,6 +60,8 @@ body {
     color: white;
     border-bottom-left-radius: 1rem ;
     padding: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 .navigation .link{
     color: white;
@@ -151,4 +153,16 @@ body {
 /* Projects Page */
 .project{
     text-align: center;
+}
+
+/* Blog Page */
+.blog-container
+{
+    margin: 2rem;
+}
+.date{
+    text-align: center;
+}
+.blog-cta {
+    border-radius: 10px;
 }
